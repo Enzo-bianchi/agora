@@ -1,0 +1,15 @@
+{
+  "name": "Agora",
+  "homepage": "https://github.com/Clowning/Agora-Web",
+  "authors": [
+    "Enzo BIANCHI <enzo.bianchi@free.fr>"
+  ],
+  "description": "une App",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-sails": "^1.1.4",
+    "Materialize": "materialize#^0.97.6"
+  }
+}
