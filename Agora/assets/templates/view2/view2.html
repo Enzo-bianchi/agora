@@ -1,1 +1,58 @@
-<p>This is the partial for view 2.</p>
+<header class="mdl-layout__header">
+    <div class="mdl-layout__header-row titre">
+        {{ title }}
+        <div class="mdl-layout-spacer"></div>
+        <button id="show-dialog" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">add</i>
+        </button>
+        <dialog class="mdl-dialog">
+            <h4 class="mdl-dialog__title">Ajouter une idée, un projet</h4>
+            <div class="mdl-dialog__content">
+                <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield">
+                        <textarea class="mdl-textfield__input" type="text" rows="2" cols="200" id="sample5"></textarea>
+                        <label class="mdl-textfield__label" for="sample5">Decrivez votre idée...</label>
+                    </div>
+                </form>
+            </div>
+            <div class="mdl-dialog__actions">
+                <button type="button" class="mdl-button">Ajouter</button>
+                <button type="button" class="mdl-button close">Annuler</button>
+            </div>
+        </dialog>
+    </div>
+</header>
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--2-col">
+    </div>
+    <div class="mdl-cell mdl-cell--8-col">
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Text...</label>
+            </div>
+        </form>
+        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+            <thead>
+                <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Categorie</th>
+                    <th>Nombre de personnes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Securité</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Ecole</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Ecologique</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

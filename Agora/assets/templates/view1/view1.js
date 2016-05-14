@@ -22,8 +22,9 @@ angular.module('myApp.view1', ['ngRoute'])
     dialog.querySelector('.close').addEventListener('click', function() {
         dialog.close();
     });
+    $scope.percent = 85;
     document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-        this.MaterialProgress.setProgress(44);
+        this.MaterialProgress.setProgress($scope.percent);
     });
 
 }]);

@@ -10,5 +10,5 @@ angular.module('myApp.view2', ['ngRoute'])
 }])
 
 .controller('View2Ctrl', ['$scope',function($scope) {
-	$scope.$parent.title = "Vue 2";
+	$scope.$parent.title = "Notifications";
 }]);

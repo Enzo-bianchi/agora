@@ -9,6 +9,11 @@
 .mdl-card{
   width: auto;
   border-radius: 2px;
+  min-height: auto;
+  
+}
+.mdl-card__title{
+  padding: 8px;
 }
 .mdl-textfield{
   width: auto;
@@ -16,9 +21,24 @@
 
 .mdl-card-secondary{
   background-color: #ededed;
-  border-radius: 2px;
 }
 .mdl-card-inprogress{
-  background-color: #2196f3;
-  border-radius: 2px;
+  background-color: #1fd3ff;
+}
+.mdl-progress{
+  background-color: #4CAF50;
+}
+.mdl-dialog{
+  width: 600px;
+}
+
+.titre{
+  text-transform: uppercase;
+  columns: #ffffff;
+}
+.percent{
+  font-size: 0.8rem;
+}
+.mdl-data-table{
+  width: auto;
 }
