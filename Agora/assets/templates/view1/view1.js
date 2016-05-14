@@ -10,21 +10,5 @@ angular.module('myApp.view1', ['ngRoute'])
 }])
 
 .controller('View1Ctrl', ['$scope', function($scope) {
-    $scope.$parent.title = "Fil des idées";
-    var dialog = document.querySelector('dialog');
-    var showDialogButton = document.querySelector('#show-dialog');
-    if (!dialog.showModal) {
-        dialogPolyfill.registerDialog(dialog);
-    }
-    showDialogButton.addEventListener('click', function() {
-        dialog.showModal();
-    });
-    dialog.querySelector('.close').addEventListener('click', function() {
-        dialog.close();
-    });
-    $scope.percent = 85;
-    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
-        this.MaterialProgress.setProgress($scope.percent);
-    });
 
 }]);

@@ -1,58 +1,96 @@
-<header class="mdl-layout__header">
-    <div class="mdl-layout__header-row titre">
-        {{ title }}
-        <div class="mdl-layout-spacer"></div>
-        <button id="show-dialog" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-            <i class="material-icons">add</i>
-        </button>
-        <dialog class="mdl-dialog">
-            <h4 class="mdl-dialog__title">Ajouter une idée, un projet</h4>
-            <div class="mdl-dialog__content">
-                <form action="#">
-                    <div class="mdl-textfield mdl-js-textfield">
-                        <textarea class="mdl-textfield__input" type="text" rows="2" cols="200" id="sample5"></textarea>
-                        <label class="mdl-textfield__label" for="sample5">Decrivez votre idée...</label>
-                    </div>
-                </form>
-            </div>
-            <div class="mdl-dialog__actions">
-                <button type="button" class="mdl-button">Ajouter</button>
-                <button type="button" class="mdl-button close">Annuler</button>
-            </div>
-        </dialog>
-    </div>
-</header>
-<div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col">
-    </div>
-    <div class="mdl-cell mdl-cell--8-col">
-        <form action="#">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample3">
-                <label class="mdl-textfield__label" for="sample3">Envoyer votre message...</label>
-            </div>
-        </form>
-        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-            <thead>
-                <tr>
-                    <th class="mdl-data-table__cell--non-numeric">Categorie</th>
-                    <th>Nombre de personnes</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="mdl-data-table__cell--non-numeric">Securité</td>
-                    <td>25</td>
-                </tr>
-                <tr>
-                    <td class="mdl-data-table__cell--non-numeric">Ecole</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td class="mdl-data-table__cell--non-numeric">Ecologique</td>
-                    <td>10</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
+
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Charts</h1>
+				
+			</div>
+		</div><!--/.row-->
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">Line Chart</div>
+					<div class="panel-body">
+						<div class="canvas-wrapper">
+							<canvas class="main-chart" id="line-chart" height="200" width="600"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.row-->
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">Bar Chart</div>
+					<div class="panel-body">
+						<div class="canvas-wrapper">
+							<canvas class="main-chart" id="bar-chart" height="200" width="600"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.row-->		
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">Pie Chart</div>
+					<div class="panel-body">
+						<div class="canvas-wrapper">
+							<canvas class="chart" id="pie-chart" ></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">Doughnut Chart</div>
+					<div class="panel-body">
+						<div class="canvas-wrapper">
+							<canvas class="chart" id="doughnut-chart" ></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.row-->
+		
+		<div class="row">
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>Label:</h4>
+						<div class="easypiechart" id="easypiechart-blue" data-percent="92" ><span class="percent">92%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>Label:</h4>
+						<div class="easypiechart" id="easypiechart-orange" data-percent="65" ><span class="percent">65%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>Label:</h4>
+						<div class="easypiechart" id="easypiechart-teal" data-percent="56" ><span class="percent">56%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-body easypiechart-panel">
+						<h4>Label:</h4>
+						<div class="easypiechart" id="easypiechart-red" data-percent="27" ><span class="percent">27%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.row-->
