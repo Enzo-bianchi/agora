@@ -10,5 +10,5 @@ angular.module('myApp.view4', ['ngRoute'])
 }])
 
 .controller('View4Ctrl', ['$scope',function($scope) {
-	
+	$scope.$parent.titre = "Création d'une idée";
 }]);
