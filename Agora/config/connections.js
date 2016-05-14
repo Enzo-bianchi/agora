@@ -45,8 +45,8 @@ module.exports.connections = {
         adapter: 'sails-mysql',
         host: '127.0.0.1',
         user: 'root', //optional
-        password: 'root', //optional
-        database: 'agora' //optional
+        password: 'BOULAJINe06', //optional
+        database: 'sails_agora' //optional
     },
 
     /***************************************************************************
