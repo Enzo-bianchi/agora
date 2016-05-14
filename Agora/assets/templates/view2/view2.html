@@ -1,96 +1,77 @@
 
-		
+
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Charts</h1>
-				
+				<h1 class="page-header">Idées</h1>
+
 			</div>
 		</div><!--/.row-->
-		
+
 		<div class="row">
-			<div class="col-lg-12">
-				<div class="panel panel-default">
-					<div class="panel-heading">Line Chart</div>
-					<div class="panel-body">
-						<div class="canvas-wrapper">
-							<canvas class="main-chart" id="line-chart" height="200" width="600"></canvas>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/.row-->
-		
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="panel panel-default">
-					<div class="panel-heading">Bar Chart</div>
-					<div class="panel-body">
-						<div class="canvas-wrapper">
-							<canvas class="main-chart" id="bar-chart" height="200" width="600"></canvas>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/.row-->		
-		
-		<div class="row">
-			<div class="col-md-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">Pie Chart</div>
-					<div class="panel-body">
-						<div class="canvas-wrapper">
-							<canvas class="chart" id="pie-chart" ></canvas>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">Doughnut Chart</div>
-					<div class="panel-body">
-						<div class="canvas-wrapper">
-							<canvas class="chart" id="doughnut-chart" ></canvas>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/.row-->
-		
-		<div class="row">
-			<div class="col-xs-6 col-md-3">
-				<div class="panel panel-default">
-					<div class="panel-body easypiechart-panel">
-						<h4>Label:</h4>
-						<div class="easypiechart" id="easypiechart-blue" data-percent="92" ><span class="percent">92%</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<div class="panel panel-default">
-					<div class="panel-body easypiechart-panel">
-						<h4>Label:</h4>
-						<div class="easypiechart" id="easypiechart-orange" data-percent="65" ><span class="percent">65%</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<div class="panel panel-default">
-					<div class="panel-body easypiechart-panel">
-						<h4>Label:</h4>
-						<div class="easypiechart" id="easypiechart-teal" data-percent="56" ><span class="percent">56%</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-6 col-md-3">
-				<div class="panel panel-default">
-					<div class="panel-body easypiechart-panel">
-						<h4>Label:</h4>
-						<div class="easypiechart" id="easypiechart-red" data-percent="27" ><span class="percent">27%</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/.row-->
+		    <div class="col-md-12">
+		        <div class="panel panel-default">
+		            <div class="panel-heading">Fil d'idées</div>
+		            <div class="panel-body">
+		                <table class="table">
+		                    <thead>
+		                        <tr>
+		                            <th data-field="id" data-align="right"></th>
+		                            <th data-field="name">Nom</th>
+		                            <th data-field="price">Votes</th>
+																<th data-field="name">Nom de l'auteur</th>
+																<th data-field="date">Date de publication</th>
+																<th>
+																	Etat
+																</th>
+																<th>
+
+																</th>
+																<th>
+
+																</th>
+		                        </tr>
+		                    </thead>
+		                    <tbody>
+		                        <tr>
+		                            <td>
+		                                <input type="checkbox" name="">
+		                            </td>
+		                            <td>Une platform d'idées</td>
+		                            <td>53</td>
+																<td>Richard Bill</td>
+		                            <td>11/12/2017</td>
+																<td><span class="label label-success">En-cours</span></td>
+    														<td><a class="btn mini blue-stripe">Voter</a></td>
+                        				<td><a href="#" class="confirm-delete btn mini red-stripe" role="button">Voir</a></td>
+		                        </tr>
+		                        <tr>
+		                            <td>
+		                                <input type="checkbox" name="">
+		                            </td>
+		                            <td>Un espace vert plus grand</td>
+		                            <td>356</td>
+																<td>Bernadette Janet</td>
+		                            <td>10/09/2017</td>
+																<td><span class="label label-danger">A voir</span></td>
+    														<td><a class="btn mini blue-stripe">Voter</a></td>
+                        				<td><a href="#" class="confirm-delete btn mini red-stripe" role="button">Voir</a></td>
+		                        </tr>
+		                        <tr>
+		                            <td>
+		                                <input type="checkbox" name="">
+		                            </td>
+		                            <td>Un arrêt de bus à côté de l'école</td>
+		                            <td>83</td>
+																<td>Jack Janet</td>
+																<td>08/07/2017</td>
+																<td><span class="label label-warning">Attention</span></td>
+    														<td><a class="btn mini blue-stripe">Voter</a></td>
+                        				<td><a href="#" class="confirm-delete btn mini red-stripe" role="button">Voir</a></td>
+		                        </tr>
+		                    </tbody>
+		                </table>
+										<button type="button" class="btn btn-primary">Voter toutes</button>
+										<button type="button" class="btn btn-primary">Voir Toutes</button>
+		            </div>
+		        </div>
+		    </div>
